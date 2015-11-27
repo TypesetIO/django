@@ -94,15 +94,15 @@ TOKEN_MAPPING = {
 FILTER_SEPARATOR = '|'
 FILTER_ARGUMENT_SEPARATOR = ':'
 VARIABLE_ATTRIBUTE_SEPARATOR = '.'
-BLOCK_TAG_START = '{%'
-BLOCK_TAG_END = '%}'
-VARIABLE_TAG_START = '{{'
-VARIABLE_TAG_END = '}}'
-COMMENT_TAG_START = '{#'
-COMMENT_TAG_END = '#}'
+BLOCK_TAG_START = '<%'
+BLOCK_TAG_END = '%>'
+VARIABLE_TAG_START = '<<'
+VARIABLE_TAG_END = '>>'
+COMMENT_TAG_START = '<#'
+COMMENT_TAG_END = '#>'
 TRANSLATOR_COMMENT_MARK = 'Translators'
-SINGLE_BRACE_START = '{'
-SINGLE_BRACE_END = '}'
+SINGLE_BRACE_START = '<'
+SINGLE_BRACE_END = '>'
 
 # what to report as the origin for templates that come from non-loader sources
 # (e.g. strings)
